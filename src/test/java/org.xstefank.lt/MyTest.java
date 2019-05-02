@@ -8,9 +8,4 @@ public class MyTest {
     public void testOne() {
         Assert.assertEquals("me", "you");
     }
-
-    @Test
-    public void testTwo() {
-        Assert.assertEquals("you", "you");
-    }
 }
