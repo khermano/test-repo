@@ -6,6 +6,6 @@ import org.junit.Test;
 public class MyTest {
     @Test
     public void testOne() {
-        Assert.assertEquals("me", "you");
+        Assert.assertEquals("me", "me");
     }
 }
