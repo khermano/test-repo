@@ -6,6 +6,6 @@ import org.junit.Test;
 public class SomeTest {
     @Test
     public void testTwo() {
-        Assert.assertEquals("you", "you");
+        Assert.assertEquals(System.getProperty("os.name"), "Linux");
     }
 }
