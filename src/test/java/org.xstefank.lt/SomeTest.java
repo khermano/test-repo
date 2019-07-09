@@ -8,9 +8,4 @@ public class SomeTest {
     public void testTwo() {
         Assert.assertEquals("Linux", System.getProperty("os.name"));
     }
-
-    @Test
-    public void mavenTest() {
-        Assert.assertEquals("3.0.5", System.getProperty("teamcity.agent.jvm.version"));
-    }
 }
