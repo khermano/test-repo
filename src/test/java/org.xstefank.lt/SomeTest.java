@@ -11,6 +11,6 @@ public class SomeTest {
 
     @Test
     public void mavenTest() {
-        Assert.assertEquals("3.0.5", System.getProperty("${project.version}"));
+        Assert.assertEquals("3.0.5", System.getProperty("teamcity.agent.jvm.os.version"));
     }
 }
