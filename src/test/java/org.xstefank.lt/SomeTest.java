@@ -6,11 +6,11 @@ import org.junit.Test;
 public class SomeTest {
     @Test
     public void testTwo() {
-        Assert.assertEquals(System.getProperty("os.name"), "Linux");
+        Assert.assertEquals("Linux", System.getProperty("os.name"));
     }
 
     @Test
     public void mavenTest() {
-        Assert.assertEquals(getClass().getPackage().getImplementationVersion(), "3.0.5");
+        Assert.assertEquals("3.0.5", System.getProperty("project.version"));
     }
 }
