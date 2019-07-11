@@ -6,6 +6,6 @@ import org.junit.Test;
 public class SomeTest {
     @Test
     public void testTwo() {
-        Assert.assertEquals("Linux", System.getProperty("os.name"));
+        Assert.assertEquals("tryThis", System.getProperty("myProperty"));
     }
 }
